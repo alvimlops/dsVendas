@@ -23,7 +23,7 @@ const DonultChart = () => {
    };
      return (
           <Chart
-            options = {{...options,  labels: mockData.labels}}
+            options = {{...options,  xaxis: mockData.labels}}
             series={mockData.series}
             type="donut"
             height="240"
